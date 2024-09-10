@@ -1,0 +1,29 @@
+STYLE.CSS
+.loader-wrapper{
+width:150px;
+height:150px;
+top:30%;
+left:50%;
+display:block;l
+position:absolute;
+
+}
+
+.loader{
+width:70px;
+height:70px;
+border:10px solid #ccc;
+border-radius:100%;
+border-top-color; #345566;
+animation:spin 2s linear infinite;
+}
+
+@keyframes spin{
+  from {
+    transform:rotate(0deg);
+  }
+
+  to {
+    transform:rotate(360deg);
+  }
+}
